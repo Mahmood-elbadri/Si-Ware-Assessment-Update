@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test verbose="2" preserve-order="true" name="Si Ware Assessment">
+        <classes>
+            <class name="com.automationexercise.tests.Tests.SignUpInTest"/>
+
+<!--            <class name="com.automationexercise.tests.Tests.AddITemTest"/>-->
+
+<!--            <class name="com.automationexercise.tests.Tests.CartTest"/>-->
+
+<!--            <class name="com.automationexercise.tests.Tests.LogOutTest"/>-->
+        </classes>
+    </test>
+</suite>
